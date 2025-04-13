@@ -393,7 +393,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office-mobile.jpg);
+    url(../images/dark-bg.jpg);
   background-color: #2e2f42;
   padding: 72px 0;
 
@@ -409,7 +409,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office-mobile-2x.jpg);
+      url(../images/dark-bg-2x.jpg);
   }
 }
 
