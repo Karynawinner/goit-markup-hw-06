@@ -191,12 +191,12 @@ img {
 .mobile-menu-address {
   font-style: normal;
   display: block;
+  margin-bottom: 48px;
 }
 .mobile-menu-address-list {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 48px;
 }
 .mobile-menu-address-link {
   display: block;
@@ -393,7 +393,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/dark-bg.jpg);
+    url(../images/people-office-mobile.jpg);
   background-color: #2e2f42;
   padding: 72px 0;
 
@@ -409,7 +409,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/dark-bg-2x.jpg);
+      url(../images/dark-bgnd.jpg);
   }
 }
 
@@ -1260,6 +1260,6 @@ span {
 @media screen and (min-width: 768px) {
   .modal {
     width: 408px;
-    height: 584px;
+    min-height: 584px;
   }
 }
