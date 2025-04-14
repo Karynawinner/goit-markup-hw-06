@@ -309,8 +309,11 @@ img {
   }
 
   .header-address {
+    display: flex;
+    flex-direction: column;
     font-style: normal;
-    display: block;
+    justify-content: center;
+    align-items: center;
   }
 
   .header-address-list {
@@ -461,7 +464,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office-tablet.jpg);
+      url(../images/dark-bgtab.jpg);
     max-width: 768px;
     padding: 112px 0;
   }
@@ -472,7 +475,7 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office-tablet-2x.jpg);
+        url(../images/dark-bgtabl.jpg);
     }
   }
 
@@ -490,7 +493,7 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office-desk.jpg);
-    max-width: 1158px;
+    min-width: 1158px;
     padding: 188px 0;
   }
   @media screen and (min-resolution: 2x) {
@@ -758,7 +761,7 @@ img {
     row-gap: 72px;
   }
   .section-four-list-item {
-    flex-basis: calc((100% - 48px) / 2);
+    flex-basis: calc((100% - 24px) / 2);
     max-width: 356px;
   }
 }
@@ -768,7 +771,7 @@ img {
   }
 
   .section-four-list-item {
-    flex-basis: calc((100% - 72px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
     max-width: 360px;
   }
 }
@@ -778,7 +781,9 @@ img {
 .footer-background {
   background-color: #2e2f42;
 }
-
+.logo-smm-block {
+  margin-bottom: 72px;
+}
 .logo-block {
   display: flex;
   flex-direction: column;
@@ -808,7 +813,6 @@ img {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  margin-bottom: 72px;
 }
 .footer-h-smm {
   font-family: "Roboto", sans-serif;
@@ -864,6 +868,13 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
 }
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
 
 .footer-input {
   border: 1px solid #ffffff;
@@ -879,7 +890,7 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #ffffff;
-  margin-bottom: 16px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -961,15 +972,12 @@ input::placeholder {
   }
 
   .footer-form {
-    display: flex;
     flex-direction: row;
     gap: 24px;
-    justify-content: center;
-    align-items: center;
   }
+
   .footer-input {
     width: 264px;
-
     margin-bottom: 0;
   }
 }
@@ -982,6 +990,10 @@ input::placeholder {
   .smm-block {
     margin-bottom: 0;
     width: 208px;
+  }
+  .footer-background {
+    display: flex;
+    justify-content: center;
   }
   .footer-container {
     display: flex;
